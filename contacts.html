@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Alterra</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=1060">
+	<link href="./css/style.css" rel="stylesheet" type="text/css" title="compact">
+	<link href="./css/uniform.css" rel="stylesheet" type="text/css" title="compact">
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/easing.js"></script>
+	<script type="text/javascript" src="./js/jcarousel.js"></script>
+	<script type="text/javascript" src="./js/jqueryui.js"></script>
+	<script type="text/javascript" src="./js/raty.js"></script>
+	<script type="text/javascript" src="./js/selectbox.js"></script>
+	<script type="text/javascript" src="./js/slides.js"></script>
+	<script type="text/javascript" src="./js/uniform.js"></script>
+	<script type="text/javascript" src="./js/dynamic.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="miniheader">
+			<div>
+				<a href="#"><img src="./img/logo_big.png" width="311" height="76" alt=""></a>
+				<h3>Всё для стройки и ремонта</h3>
+				<h5><a href="#">Контакты</a></h5>
+			</div>
+		</div>
+		<div class="menu general">
+			<ul>
+				<li><a href="#"><span>Главная</span></a></li>
+				<li><a href="#"><span>О компании</span></a></li>
+				<li><a href="#"><span>Партнерам</span></a></li>
+				<li><a href="#"><span>Новости</span></a></li>
+				<li><a href="#"><span>Галерея</span></a></li>
+				<li><a href="#"><span>Карьера</span></a></li>
+				<li class="active"><a href="#"><span>Контакты</span></a></li>
+				<li class="shop"><a href="#"><em>Интернет-магазин</em></a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div>
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a></li>
+					<li><span>Контакты</span></li>
+				</ul>
+				<h1>Контакты</h1>
+				<div class="contacts">
+					<div id="map">
+						<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+						<script type="text/javascript">
+							ymaps.ready(init);
+							function init() {
+								var map = new ymaps.Map('map', {
+									center: [53.31836929, 83.84016726],
+									zoom: 13
+								});
+								var barnaul = new ymaps.Placemark([53.31836929, 83.84016726], {}, {
+									iconLayout: 'default#image',
+									iconImageHref: './img/baloon_icon.png',
+									iconImageSize: [36, 51],
+									iconImageOffset: [-18, -51],
+									hideIconOnBalloonOpen: false
+								});
+								map.controls.remove('fullscreenControl').remove('geolocationControl').remove('searchControl').remove('trafficControl').remove('typeSelector').remove('zoomControl');
+								map.geoObjects.add(barnaul);
+							}
+						</script>
+					</div>
+					<div>
+						<div>
+							<h2>Центральная база “Альтерра” на развязке</h2>
+							<div>
+								<div class="address">
+									<h5>Авторазвязка Барнаул-Бийск-Новосибирск:</h5>
+									<p>г. Новоалтайск, ул. Дорожная, 42/1 - офис</p>
+									<p>г. Новоалтайск, ул. Дорожная, 44/1 - торговый комплекс</p>
+								</div>
+								<div class="chief">
+									<h3><strong>Генеральный директор</strong> - Потапов Сергей Васильевич</h3>
+									<ul>
+										<li class="phone">
+											<span>+7 (3852) 299 - 669</span>
+											<span>+7 (38532) 6 - 15 - 02</span>
+										</li>
+										<li class="mail"><a href="mailto:potapov@tg-alterra.ru">potapov@tg-alterra.ru</a></li>
+									</ul>
+								</div>
+								<h6><span>Смотреть на карте</span></h6>
+							</div>
+							<ul>
+								<li>
+									<h5>Приемная:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (3852) 299 - 669</span>
+											<span>+7 (38532) 6 - 15 - 02</span>
+										</li>
+										<li class="mail"><a href="mailto:info@tg-alterra.ru">info@tg-alterra.ru</a></li>
+									</ul>
+								</li>
+								<li>
+									<h5>Отдел поставок:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (38532) 6 -14 - 40</span>
+											<span>+7 (38532) 6 - 12 - 91</span>
+										</li>
+										<li class="mail"><a href="mailto:postavka@tg-alterra.ru">postavka@tg-alterra.ru</a></li>
+									</ul>
+								</li>
+								<li>
+									<h5>Отдел маркетинга:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (3852) 299 - 669</span>
+										</li>
+										<li class="mail"><a href="mailto:marketing@tg-alterra.ru">marketing@tg-alterra.ru</a></li>
+									</ul>
+								</li>
+								<li>
+									<h5>Отдел продаж:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (3852) 601 - 820</span>
+											<span>+7 (38532) 6 - 13 - 43</span>
+											<span>+7 (3852) 717 - 024</span>
+										</li>
+										<li class="mail"><a href="mailto:com@tg-alterra.ru">com@tg-alterra.ru</a></li>
+									</ul>
+								</li>
+								<li>
+									<h5>Отдел поставок:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (38532) 6 -15 - 00</span>
+											<span>+7 (3852) 603 - 915</span>
+										</li>
+										<li class="mail"><a href="mailto:personal@tg-alterra.ru">personal@tg-alterra.ru</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h2>База “Альтерра” на Павловском тракте</h2>
+							<div>
+								<div class="address">
+									<h5>г. Барнаул, Павловский тр-т, 206</h5>
+								</div>
+								<div class="chief">
+									<h3><strong>Директор</strong> - Винников Роман Владимирович</h3>
+									<ul>
+										<li class="phone">
+											<span>+7 (3852) 299 - 758</span>
+											<span>+7 (3852) 603 - 844</span>
+										</li>
+										<li class="mail"><a href="mailto:barnaul@tg-alterra.ru">barnaul@tg-alterra.ru</a></li>
+									</ul>
+								</div>
+								<h6><span>Смотреть на карте</span></h6>
+							</div>
+							<ul>
+								<li>
+									<h5>Отдел поставок:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (3852) 299 - 758</span>
+										</li>
+										<li class="mail"><a href="mailto:postavka@tg-alterra.ru">postavka@tg-alterra.ru</a></li>
+									</ul>
+								</li>
+								<li>
+									<h5>Отдел продаж:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (3852) 299 - 669</span>
+											<span>+7 (3852) 603 - 844</span>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<h5>Отдел оптовых продаж:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (3852) 259 - 733</span>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<h2>Торговый центр “Альтерра” в Новоалтайске</h2>
+							<div>
+								<div class="address">
+									<h5>г. Новоалтайск, ул. Молодежная,<br> 26-в/ул. Ударника, 2г (база “Выбор”)</h5>
+								</div>
+								<div class="chief">
+									<h3><strong>Директор</strong> - Пономарева Надежда Владимировна</h3>
+									<ul>
+										<li class="phone">
+											<span>+7 (38532) 4 - 55 - 55</span>
+											<span>+7 (38532) 4 - 57 - 22</span>
+										</li>
+										<li class="mail"><a href="mailto:novoaltaysk@tg-alterra.ru">novoaltaysk@tg-alterra.ru</a></li>
+									</ul>
+								</div>
+								<h6><span>Смотреть на карте</span></h6>
+							</div>
+							<ul>
+								<li>
+									<h5>Отдел поставок:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (38532) 4 - 57 - 23</span>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<h5>Отдел продаж:</h5>
+									<ul>
+										<li class="phone">
+											<span>+7 (38532) 4 - 57 - 23</span>
+											<span>+7 (38532) 4 - 57 - 24</span>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="footer">
+		<div>
+			<div>
+				<p>Торговая группа «Альтерра»</p>
+				<p>Все права защищены © 2009-2015</p>
+			</div>
+			<h5>Разработка сайта - <a href="http://letsrock.pro" target="_blank"><img src="./img/letsrock_logo.png" width="89" height="22" alt=""></a></h5>
+		</div>
+	</div>
+</body>
+</html>
