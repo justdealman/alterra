@@ -153,4 +153,28 @@ $(document).ready(function() {
 	$('.compare table tbody tr:last-child th, .compare table tbody tr:last-child td').css({
 		'padding-bottom': '17px'
 	});
+	if ( $('.rb .main .special').length > 0 ) {
+		$('body').append('<div class="cover"></div>');
+		$('.cover').css({
+			'top': $('.rb .main .special').offset().top-22+'px',
+			'height': $('.rb .main .special').height()+45+'px'
+		});
+	}
+	$('.modal').append('<span class="close"></span>');
+	var bh = 0;
+	$('[data-call]').bind('click', function() {
+		$('.fade').stop(true,true).fadeIn(500);
+		$('.modal[data-modal="'+$(this).attr('data-call')+'"]').css({
+			'margin-top': -$('.modal[data-modal="'+$(this).attr('data-call')+'"]').outerHeight()/2+'px'
+		}).stop(true,true).fadeIn(500);
+		bh = $(document).scrollTop();
+		$('body').css({'position': 'fixed', 'top': -bh+'px', 'overflow-y': 'scroll'});
+		return false;
+	});
+	$('.modal .close, .fade').bind('click', function() {
+		$('.fade, .modal').stop(true,true).fadeOut(500);
+		$('body').css({'position': 'static', 'top': '0', 'overflow-y': 'auto'});
+		$(document).scrollTop(bh);
+		return false;
+	});
 });
