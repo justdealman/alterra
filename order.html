@@ -37,7 +37,7 @@
 		</div>
 		<div class="header">
 			<div>
-				<img src="./img/logo.png" width="251" height="63" class="logo" alt="">
+				<img src="./img/logo.png" width="251" height="61" class="logo" alt="">
 				<h5 class="store"><a href="#">Интернет-магазин</a></h5>
 				<h5 class="address"><a href="#"><span>ТК: г. Барнаул, Павловский тракт, 206</span></a></h5>
 				<h3 class="phone">(3852) 299-758</h3>
@@ -82,87 +82,90 @@
 				<h1>Оформление заказа</h1>
 				<div class="order">
 					<h2>Информация для оплаты и доставки заказа <span>№ 125, от 12.12.2014г.</span></h2>
-					<div>
-						<div>
-							<h5>Информация о покупателе:</h5>
-							<p><input type="text" placeholder="Имя"></p>
-							<p><input type="text" placeholder="Фамилия"></p>
-							<p><input type="text" placeholder="Отчество"></p>
-							<p><input type="text" placeholder="Дата рождения"></p>
-							<p><input type="text" placeholder="Телефон"></p>
-							<p><input type="text" placeholder="Доп. телефон"></p>
-						</div>
-						<div>
-							<h5>Ваш адрес:</h5>
-							<p><input type="text" placeholder="Район города"></p>
-							<p><input type="text" placeholder="Улица и номер дома"></p>
-							<p><input type="text" placeholder="Этаж"></p>
-							<p><input type="text" placeholder="Код двери"></p>
-						</div>
-						<div>
-							<h5 class="delivery">Выберите способ доставки:</h5>
-							<ul>
-								<li><input type="radio" name="r1" checked> Доставка курьером до подьезда - <i>стоимость <strong>300р.</strong></i></li>
-								<li><input type="radio" name="r1"> Доставка курьером + подъем на этаж - <i>стоимость <strong>300р.</strong></i></li>
-								<li><input type="radio" name="r1"> Доставка курьером + подъем на этаж - <i>стоимость <strong>300р.</strong></i></li>
-							</ul>
-						</div>
-						<div>
-							<h5 class="payment">Выберите способ оплаты:</h5>
-							<ul>
-								<li><input type="radio" name="r2" checked> Наличными. На кассе магазина</li>
-								<li><input type="radio" name="r2"> Наличными. Курьеру </li>
-								<li><input type="radio" name="r2"> Безналичными. Оплата на сайте - <i>расчет банковской картой будет доступен после подтверждения заказа менеджером.<br> В рабочее время это не занимает более получаса с момента оформления заказа.</i></li>
-							</ul>
-						</div>
-						<div>
-							<h5>Состав заказа</h5>
+					<form action="#">
+						<div class="form">
 							<div>
-								<table>
-									<tbody>
-										<tr>
-											<td class="photo">
-												<div>
-													<img src="./pic/order1.png" width="38" height="29" alt="">
-												</div>
-											</td>
-											<td class="title">
-												<h5><a href="#">Фиброцементный сайдинг Cedral Белый кремовый C07</a></h5>
-												<h6><em>Артикул:</em> 23983</h6>
-											</td>
-											<td class="quantity">10 шт.</td>
-											<td class="price"><span>165 руб.</span></td>
-											<td class="total"><strong>16 500 руб.</strong></td>
-										</tr>
-										<tr>
-											<td class="photo">
-												<div>
-													<img src="./pic/order2.png" width="34" height="31" alt="">
-												</div>
-											</td>
-											<td class="title">
-												<h5><a href="#">Фиброцементный сайдинг Cedral Белый кремовый C07</a></h5>
-												<h6><em>Артикул:</em> 23983</h6>
-											</td>
-											<td class="quantity">10 шт.</td>
-											<td class="price"><span>165 руб.</span></td>
-											<td class="total"><strong>16 500 руб.</strong></td>
-										</tr>
-									</tbody>
-								</table>
+								<h5>Информация о покупателе:</h5>
+								<p><input type="text" placeholder="Имя"></p>
+								<p><input type="text" placeholder="Фамилия"></p>
+								<p><input type="text" placeholder="Отчество"></p>
+								<p><input type="text" placeholder="Дата рождения"></p>
+								<p><input type="text" placeholder="Телефон"></p>
+								<p><input type="text" placeholder="Доп. телефон"></p>
+							</div>
+							<div>
+								<h5>Ваш адрес:</h5>
+								<p><input type="text" placeholder="Район города"></p>
+								<p><input type="text" placeholder="Улица"></p>
+								<p><input type="text" placeholder="Номер дома"></p>
+								<p><input type="text" placeholder="Этаж"></p>
+								<p><input type="text" placeholder="Код двери"></p>
+							</div>
+							<div>
+								<h5 class="delivery">Выберите способ доставки:</h5>
+								<ul>
+									<li><input type="radio" name="r1" checked> Доставка курьером до подьезда - <i>стоимость <strong>300р.</strong></i></li>
+									<li><input type="radio" name="r1"> Доставка курьером + подъем на этаж - <i>стоимость <strong>500р.</strong></i></li>
+									<li><input type="radio" name="r1"> Самовывоз</li>
+								</ul>
+							</div>
+							<div>
+								<h5 class="payment">Выберите способ оплаты:</h5>
+								<ul>
+									<li><input type="radio" name="r2" checked> Наличными. На кассе магазина</li>
+									<li><input type="radio" name="r2"> Наличными. Курьеру </li>
+									<li><input type="radio" name="r2"> Безналичными. Оплата на сайте - <i>расчет банковской картой будет доступен после подтверждения заказа менеджером.<br> В рабочее время это не занимает более получаса с момента оформления заказа.</i></li>
+								</ul>
+							</div>
+							<div>
+								<h5>Состав заказа</h5>
 								<div>
-									<h4><span>Товаров на:</span> 38 500 руб.</h4>
-									<h4><span>Доставка:</span> 500 руб.</h4>
-									<h4 class="complete"><span>Итого:</span> 39 000 руб.</h4>
+									<table>
+										<tbody>
+											<tr>
+												<td class="photo">
+													<div>
+														<img src="./pic/order1.png" width="38" height="29" alt="">
+													</div>
+												</td>
+												<td class="title">
+													<h5><a href="#">Фиброцементный сайдинг Cedral Белый кремовый C07</a></h5>
+													<h6><em>Артикул:</em> 23983</h6>
+												</td>
+												<td class="quantity">10 шт.</td>
+												<td class="price"><span>165 руб.</span></td>
+												<td class="total"><strong>16 500 руб.</strong></td>
+											</tr>
+											<tr>
+												<td class="photo">
+													<div>
+														<img src="./pic/order2.png" width="34" height="31" alt="">
+													</div>
+												</td>
+												<td class="title">
+													<h5><a href="#">Фиброцементный сайдинг Cedral Белый кремовый C07</a></h5>
+													<h6><em>Артикул:</em> 23983</h6>
+												</td>
+												<td class="quantity">10 шт.</td>
+												<td class="price"><span>165 руб.</span></td>
+												<td class="total"><strong>16 500 руб.</strong></td>
+											</tr>
+										</tbody>
+									</table>
+									<div>
+										<h4><span>Товаров на:</span> 38 500 руб.</h4>
+										<h4><span>Доставка:</span> 500 руб.</h4>
+										<h4 class="complete"><span>Итого:</span> 39 000 руб.</h4>
+									</div>
 								</div>
 							</div>
+							<div>
+								<h5>Дополнительная информация:</h5>
+								<p><textarea cols="200" rows="6" placeholder="Комментарий к заказу"></textarea></p>
+							</div>
+							<button>Подтвердить заказ</button>
 						</div>
-						<div>
-							<h5>Дополнительная информация:</h5>
-							<p><textarea cols="200" rows="6" placeholder="Комментарий к заказу"></textarea></p>
-						</div>
-						<button>Подтвердить заказ</button>
-					</div>
+					</form>
 				</div>
 			</div>
 		</div>

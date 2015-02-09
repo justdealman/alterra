@@ -37,14 +37,19 @@
 		</div>
 		<div class="header">
 			<div>
-				<img src="./img/logo.png" width="251" height="63" class="logo" alt="">
+				<img src="./img/logo.png" width="251" height="61" class="logo" alt="">
 				<h5 class="store"><a href="#">Интернет-магазин</a></h5>
 				<h5 class="address"><a href="#"><span>ТК: г. Барнаул, Павловский тракт, 206</span></a></h5>
+				<ul class="citysel">
+					<li><span data-pre="ТК">г. Барнаул, Павловский тракт, 206</span></li>
+					<li><span>Развязка Барнаул-Бийск-Новоалтайск</span></li>
+					<li><span data-pre="ТК">г. Новоалтайск</span></li>
+				</ul>
 				<h3 class="phone">(3852) 299-758</h3>
 				<h5 class="call"><a href="#" data-call="recall"><span>Заказать звонок</span></a></h5>
 				<ul class="feedback">
-					<li><a href="#">Поблагодарить</a></li>
-					<li><a href="#">Пожаловаться</a></li>
+					<li><a href="#" data-call="thank">Поблагодарить</a></li>
+					<li><a href="#" data-call="complain">Пожаловаться</a></li>
 				</ul>
 				<div class="search">
 					<p><input type="text" placeholder="Поиск по каталогу"></p>
@@ -262,7 +267,7 @@
 										</div>
 										<h5>165<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 								<li>
@@ -273,7 +278,7 @@
 										</div>
 										<h5><span>430<em>o</em></span> 390<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 								<li>
@@ -285,7 +290,7 @@
 										</div>
 										<h5>189<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 								<li>
@@ -297,7 +302,7 @@
 										</div>
 										<h5>165<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 							</ul>
@@ -313,7 +318,7 @@
 										</div>
 										<h5>165<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 								<li>
@@ -324,7 +329,7 @@
 										</div>
 										<h5><span>430<em>o</em></span> 390<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 								<li>
@@ -336,7 +341,7 @@
 										</div>
 										<h5>189<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 								<li>
@@ -347,7 +352,7 @@
 										</div>
 										<h5>165<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 							</ul>
@@ -363,7 +368,7 @@
 										</div>
 										<h5>165<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 								<li>
@@ -374,7 +379,7 @@
 										</div>
 										<h5><span>430<em>o</em></span> 390<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 								<li>
@@ -386,7 +391,7 @@
 										</div>
 										<h5>189<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 								<li>
@@ -398,13 +403,30 @@
 										</div>
 										<h5>165<em>o</em></h5>
 										<h6><input type="checkbox"> Добавить к сравнению</h6>
-										<button>Купить</button>
+										<button data-basket="add">Купить</button>
 									</div>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="partners">
+			<h2>Наши партнеры</h2>
+			<div>
+				<ul class="jcarousel">
+					<li><a href="#"><img src="./pic/partner1.png" width="126" height="60" alt=""></a></li>
+					<li><a href="#"><img src="./pic/partner2.png" width="152" height="46" alt=""></a></li>
+					<li><a href="#"><img src="./pic/partner3.png" width="97" height="71" alt=""></a></li>
+					<li><a href="#"><img src="./pic/partner4.png" width="157" height="43" alt=""></a></li>
+					<li><a href="#"><img src="./pic/partner5.png" width="126" height="60" alt=""></a></li>
+					<li><a href="#"><img src="./pic/partner1.png" width="126" height="60" alt=""></a></li>
+					<li><a href="#"><img src="./pic/partner2.png" width="152" height="46" alt=""></a></li>
+					<li><a href="#"><img src="./pic/partner3.png" width="97" height="71" alt=""></a></li>
+					<li><a href="#"><img src="./pic/partner4.png" width="157" height="43" alt=""></a></li>
+					<li><a href="#"><img src="./pic/partner5.png" width="126" height="60" alt=""></a></li>
+				</ul>
 			</div>
 		</div>
 		<div class="clear"></div>
@@ -421,14 +443,56 @@
 	<div class="fade"></div>
 	<div class="modal" data-modal="recall">
 		<h3>Заказать звонок</h3>
-		<h5>Ф.И.О:</h5>
-		<p><input type="text" placeholder="Мария" class="error"></p>
-		<p><input type="text" placeholder="Фамилия"></p>
-		<p><input type="text" placeholder="Отчество"></p>
-		<h5>Телефон</h5>
+		<h5><span>*</span> Имя:</h5>
+		<p><input type="text" value="Мария" class="error"></p>
+		<h5>Фамилия:</h5>
 		<p><input type="text"></p>
+		<h5>Отчество:</h5>
+		<p><input type="text"></p>
+		<h5><span>*</span> Телефон:</h5>
+		<p><input type="text"></p>
+		<h5>Город:</h5>
+		<p><input type="text"></p>
+		<h5><span>*</span> Ваш вопрос:</h5>
+		<p><textarea cols="60" rows="3"></textarea></p>
+		<h4><span>*</span> - Поля обязательные к заполнению</h4>
 		<button>Отправить</button>
 		<h6>* Заполнены не все поля</h6>
+	</div>
+	<div class="modal" data-modal="thank">
+		<h3>Поблагодарить</h3>
+		<h5><span>*</span> Имя:</h5>
+		<p><input type="text" value="Мария" class="error"></p>
+		<h5>Фамилия:</h5>
+		<p><input type="text"></p>
+		<h5>Отчество:</h5>
+		<p><input type="text"></p>
+		<h5><span>*</span> Сообщение:</h5>
+		<p><textarea cols="60" rows="3"></textarea></p>
+		<h4><span>*</span> - поля обязательные к заполнению</h4>
+		<button>Отправить</button>
+		<h6>* Заполнены не все поля</h6>
+	</div>
+	<div class="modal" data-modal="complain">
+		<h3>Пожаловаться</h3>
+		<h5><span>*</span> Имя:</h5>
+		<p><input type="text" value="Мария" class="error"></p>
+		<h5>Фамилия:</h5>
+		<p><input type="text"></p>
+		<h5>Отчество:</h5>
+		<p><input type="text"></p>
+		<h5><span>*</span> Сообщение:</h5>
+		<p><textarea cols="60" rows="3"></textarea></p>
+		<h4><span>*</span> - поля обязательные к заполнению</h4>
+		<button>Отправить</button>
+		<h6>* Заполнены не все поля</h6>
+	</div>
+	<div class="alert">
+		<h5>Товар успешно добавлен в корзину</h5>
+		<ul>
+			<li class="basket"><a href="#">Перейти в корзину</a></li>
+			<li class="continue"><span>Продолжить покупки</span></li>
+		</ul>
 	</div>
 </body>
 </html>
