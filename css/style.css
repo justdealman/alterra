@@ -6199,7 +6199,7 @@ div.history {
 	padding:52px 0 30px;
 	background:url('../img/history_bg.png') repeat;
 }
-div..history:before {
+div.history:before {
 	content:'';
 	position:absolute;
 	left:0;
@@ -6214,7 +6214,7 @@ div..history:before {
 	background:linear-gradient(to bottom,  rgba(0,0,0,0.15) 0%,rgba(255,255,255,0) 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', endColorstr='#00ffffff',GradientType=0 );
 }
-div..history:after {
+div.history:after {
 	content:'';
 	position:absolute;
 	left:0;
@@ -6229,7 +6229,7 @@ div..history:after {
 	background:linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.25) 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#40000000',GradientType=0 );
 }
-div..history h2 {
+div.history h2 {
 	width:960px;
 	color:#14005d;
 	font-size:48px;
@@ -6238,22 +6238,22 @@ div..history h2 {
 	padding:0;
 	margin:0 auto 30px;
 }
-div..history h2 strong {
+div.history h2 strong {
 	font-size:60px;
 	padding:0 12px 0 0;
 }
-div..history > div {
+div.history > div {
 	position:relative;
 	width:960px;
 	height:153px;
 	margin:65px auto 70px;
 	background:url('../img/history_div.png') repeat-x 75px;
 }
-div..history > div > div {
+div.history > div > div {
 	position:absolute;
 	height:70px;
 }
-div..history > div > div h6 {
+div.history > div > div h6 {
 	position:absolute;
 	left:0;
 	top:0;
@@ -6264,13 +6264,13 @@ div..history > div > div h6 {
 	padding:0;
 	margin:0;
 }
-div..history > div > div h6 span {
+div.history > div > div h6 span {
 	position:absolute;
 	left:0;
 	display:block;
 	padding:0 0 0 1px;
 }
-div..history > div > div p {
+div.history > div > div p {
 	position:absolute;
 	width:100px;
 	color:#14005d;
@@ -6279,37 +6279,37 @@ div..history > div > div p {
 	text-align:left;
 	margin:0;
 }
-div..history > div > div.top {
+div.history > div > div.top {
 	top:-1px;
 }
-div..history > div > div.top h6 {
+div.history > div > div.top h6 {
 	width:70px;
 	height:81px;
 	background:url('../img/history_h6_top.png') no-repeat left top;
 }
-div..history > div > div.top h6 span {
+div.history > div > div.top h6 span {
 	top:19px;
 	width:69px;
 	color:#ffffff;
 }
-div..history > div > div.top p {
+div.history > div > div.top p {
 	left:81px;
 	bottom:18px;
 }
-div..history > div > div.bot {
+div.history > div > div.bot {
 	bottom:12px;
 }
-div..history > div > div.bot h6 {
+div.history > div > div.bot h6 {
 	width:74px;
 	height:84px;
 	background:url('../img/history_h6_bot.png') no-repeat left top;
 }
-div..history > div > div.bot h6 span {
+div.history > div > div.bot h6 span {
 	top:32px;
 	width:73px;
 	color:#14005d;
 }
-div..history > div > div.bot p {
+div.history > div > div.bot p {
 	top:38px;
 	left:85px;
 }
