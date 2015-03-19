@@ -63,7 +63,7 @@ $(document).ready(function() {
 	$('.rb h1').siblings('.breadcrumbs').css({
 		'margin-bottom': '33px'
 	});
-	$('.compare table thead td > div').append('<span class="remove"></span>');
+	//$('.compare table thead td > div').append('<span class="remove"></span>');
 	$('.delivery .move h5, .delivery .information ul li h5').each(function() {
 		$(this).find('img').css({
 			'margin-top': -($(this).find('img').attr('height')-18)/2+2+'px'
@@ -197,7 +197,7 @@ $(document).ready(function() {
 	$('.header .address a, .header .citysel').click(function(e) {
 		e.stopPropagation();
 	});
-	$('.modal h4 em, .career .send h4 em, .cooperation .form h4 em').bind('click', function() {
+	$('.modal h4 em, .career .send h4 em, .cooperation .form h4 em, .customers .form h4 em, .providers .form h4 span').bind('click', function() {
 		$(this).parent().find('input[type="file"]').trigger('click');
 	});
 	if ( $('.about').length > 0 && $('.benefits').length > 0 ) {
@@ -207,13 +207,13 @@ $(document).ready(function() {
 	}
 	if ( $('div.store').length > 0 ) {
 		$('.fade').show();
-		var st = ($(window).height()-$('div.store').outerHeight())/2;
+		/*var st = ($(window).height()-$('div.store').outerHeight())/2;
 		if ( st < 0 ) {
 			st = 0;
 		}
 		$('div.store').css({
 			'margin-top': st+'px'
-		});
+		});*/
 	}
 	$('div.store ul li h5 a').bind('click', function() {
 		selStore($(this));
@@ -236,6 +236,36 @@ $(document).ready(function() {
 		$('.contacts [data-more="details"]').bind('click', function() {
 			contactDetails($(this));
 			return false;
+		});
+	}
+	if ( $('.compare').length > 0 ) {
+		$('.compare table').each(function() {
+			$(this).css({
+				'width': 232+$(this).find('thead td').size()*181+'px'
+			});
+			$(this).find('tbody th').each(function() {
+				$(this).css({
+					'top': $(this).parents('tr').find('td').position().top+'px'
+				});
+				var td = $(this).parent('tr').outerHeight();
+				var th = $(this).outerHeight();
+				if ( td > th ) {
+					$(this).outerHeight(td);
+				}
+				if ( th > td ) {
+					var td = $(this).parent('tr').find('td').outerHeight(th);
+				}
+			});
+		});
+		$('.compare > div > div').mousewheel(function(event, delta) {
+			this.scrollLeft -= (delta*30);
+			event.preventDefault();
+		});
+		$('.compare > div > div').bind('scroll', function() {
+			console.log($(this).scrollLeft());
+			$(this).find('table th').css({
+				'left': $(this).scrollLeft()+'px'
+			});
 		});
 	}
 });
