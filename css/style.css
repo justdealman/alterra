@@ -545,6 +545,7 @@ button::-moz-focus-inner {
 	box-shadow:0 8px 15px rgba(0,0,0,0.35);
 }
 .menu ul {
+	position:relative;
 	width:991px;
 	white-space:nowrap;
 	padding:14px 0 11px 9px;
@@ -592,8 +593,9 @@ button::-moz-focus-inner {
 	border-bottom:1px solid transparent;
 }*/
 .menu ul li.shop {
-	float:right;
-	margin:-14px 20px -11px 14px;
+	position:absolute;
+	right:20px;
+	top:0;
 }
 .menu ul li.shop a {
 	display:block;
