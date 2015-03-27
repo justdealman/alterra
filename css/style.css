@@ -460,10 +460,10 @@ button::-moz-focus-inner {
 }
 .header .basket a {
 	color:#ffffff;
-	border-bottom:1px solid #ffffff;
+	text-decoration:underline;
 }
 .header .basket a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .header .basket p {
 	font-size:14px;
@@ -576,14 +576,14 @@ button::-moz-focus-inner {
 	padding:3px 14px 3px 14px;
 }
 .menu ul li span {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .menu ul li a:hover span, .menu ul li.active span {
-	border-bottom:1px solid #585381;
+	text-decoration:underline;
 }
 /*.menu ul li.active a {
 	color:#ffffff;
@@ -778,15 +778,14 @@ ul.photos li img {
 }
 .lb .nav > ul > li > div > ul > li h5 a {
 	color:#333333;
-	text-decoration:none;
-	border-bottom:1px solid #333333;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .lb .nav > ul > li > div > ul > li h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .lb .nav > ul > li > div > ul > li > ul {
 	margin:-8px 0 16px 11px;
@@ -798,15 +797,14 @@ ul.photos li img {
 }
 .lb .nav > ul > li > div > ul > li > ul > li a {
 	color:#9c9b9b;
-	text-decoration:none;
-	border-bottom:1px solid #cac9c9;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .lb .nav > ul > li > div > ul > li > ul > li a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .lb > div {
 	margin:0 0 27px;
@@ -848,14 +846,14 @@ ul.photos li img {
 }
 .lb .articles ul li a {
 	color:#14005d;
-	border-bottom:1px solid #797699;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .lb .articles ul li a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .lb .articles > div {
 	margin:0 0 26px;
@@ -871,11 +869,10 @@ ul.photos li img {
 .lb .articles > div p a {
 	color:#333333;
 	font-weight:600;
-	text-decoration:none;
-	border-bottom:1px solid #848484;
+	text-decoration:underline;
 }
 .lb .articles > div p a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .lb .filter {
 	margin:-1px 0 27px;
@@ -891,15 +888,14 @@ ul.photos li img {
 }
 .lb .filter > ul li a {
 	color:#333333;
-	text-decoration:none;
-	border-bottom:1px solid #828282;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .lb .filter > ul li a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .lb .filter > div {
 	position:relative;
@@ -1210,16 +1206,15 @@ ul.photos li img {
 	position:relative;
 	display:block;
 	color:#14005d;
-	text-decoration:none;
 	white-space:nowrap;
-	border-bottom:1px solid #14005d;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .breadcrumbs li a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb .offer {
 	position:relative;
@@ -1383,15 +1378,14 @@ ul.photos li img {
 }
 .rb .navigation ul li a {
 	color:#333333;
-	text-decoration:none;
-	border-bottom:1px solid #808080;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .rb .navigation ul li a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb .main {
 	margin:0 0 27px;
@@ -1450,11 +1444,10 @@ ul.photos li img {
 }
 .categories h2 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #575281;
+	text-decoration:underline;
 }
 .categories h2 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .categories h2 span {
 	color:#ad0a00;
@@ -1565,15 +1558,14 @@ ul.list li > div:hover h3, .compare table thead td > div:hover h3, .jcarousel .j
 }
 ul.list li h3 a, .compare table thead td > div h3 a, .jcarousel .jcarousel-item > div h3 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #797699;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 ul.list li h3 a:hover, .compare table thead td > div h3 a:hover, .jcarousel .jcarousel-item > div h3 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 ul.list li > div > div, .compare table thead td > div > div, .jcarousel .jcarousel-item > div > div {
 	position:relative;
@@ -1715,15 +1707,14 @@ ul.list li h4:after, .compare table thead td > div h4:after, .jcarousel .jcarous
 }
 .categories > div > h5 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #14005d;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .categories > div > h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb > .description {
 	margin:36px 0 30px;
@@ -1778,15 +1769,14 @@ ul.list li h4:after, .compare table thead td > div h4:after, .jcarousel .jcarous
 }
 .rb > .description h5 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #14005d;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .rb > .description h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb .sort {
 	clear:both;
@@ -2046,15 +2036,14 @@ ul.list li h4:after, .compare table thead td > div h4:after, .jcarousel .jcarous
 }
 .content .pagination h6 a {
 	color:#333333;
-	text-decoration:none;
-	border-bottom:1px solid #898989;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .content .pagination h6 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .content .pagination h6.start {
 	margin-right:20px;
@@ -2111,15 +2100,14 @@ ul.list li h4:after, .compare table thead td > div h4:after, .jcarousel .jcarous
 }
 .prodline li h2 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #575281;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .prodline li h2 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .prodline li p {
 	color:#333333;
@@ -2228,14 +2216,13 @@ ul.list li h4:after, .compare table thead td > div h4:after, .jcarousel .jcarous
 .prodtable td a {
 	color:#14005d;
 	text-decoration:none;
-	border-bottom:1px solid #777397;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .prodtable td a:hover {
-	border-bottom:1px solid transparent
+	text-decoration:underline;
 }
 .prodtable td.num {
 	font-weight:500;
@@ -2287,15 +2274,14 @@ ul.list li h4:after, .compare table thead td > div h4:after, .jcarousel .jcarous
 }
 .content > div > h1 span a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #14005d;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .content > div > h1 span a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .content .contacts {
 	padding:22px 20px 14px;
@@ -2576,15 +2562,14 @@ ul.gallery li h5 {
 }
 ul.gallery li h5 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #8885a3;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 ul.gallery li h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb .search {
 	position:relative;
@@ -2669,15 +2654,14 @@ ul.gallery li h5 a:hover {
 }
 .rb .result h3 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #67638c;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .rb .result h3 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb .result p {
 	color:#333333;
@@ -2687,15 +2671,14 @@ ul.gallery li h5 a:hover {
 }
 .rb .result p a {
 	color:#333333;
-	text-decoration:none;
-	border-bottom:1px solid #8f8f8f;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .rb .result p a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb .result h6 {
 	color:#c2c2c2;
@@ -3250,15 +3233,14 @@ div.delivery {
 }
 .product .rating h6 a {
 	color:#333333;
-	text-decoration:none;
-	border-bottom:1px solid #a8a8a8;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .product .rating h6 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .product .core {
 	position:relative;
@@ -3310,15 +3292,14 @@ div.delivery {
 }
 .product .core .visual h6 a {
 	color:#666666;
-	text-decoration:none;
-	border-bottom:1px solid #999999;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .product .core .visual h6 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .product .core .visual > div {
 	overflow:hidden;
@@ -3357,15 +3338,14 @@ div.delivery {
 }
 .product .core .visual h5 strong a {
 	color:#666666;
-	text-decoration:none;
-	border-bottom:1px solid #999999;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .product .core .visual h5 strong a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .product .core .visual h5 span {
 	display:inline-block;
@@ -3754,15 +3734,14 @@ div.delivery {
 	font-size:14px;
 	line-height:18px;
 	font-weight:500;
-	text-decoration:none;
-	border-bottom:1px solid #dcaead;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .private .nav ul li a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .private h6 {
 	color:#333333;
@@ -3821,11 +3800,10 @@ div.delivery {
 }
 .private .links > div ul li a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #777397;
+	text-decoration:underline;
 }
 .private .links > div ul li a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
@@ -4027,15 +4005,14 @@ div.delivery {
 }
 .order .form > div > div table td h5 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #797598;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .order .form > div > div table td h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .order .form > div > div table td h6 {
 	color:#333333;
@@ -4315,15 +4292,14 @@ div.delivery {
 }
 .stat > ul li h3 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #b0aec1;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .stat > ul li h3 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .stat > ul li > div {
 	clear:both;
@@ -4356,15 +4332,14 @@ div.delivery {
 }
 .stat > ul li > div p a {
 	color:#333333;
-	text-decoration:none;
-	border-bottom:1px solid #919191;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .stat > ul li > div p a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .stat > ul li > div h6 {
 	color:#c2c2c2;
@@ -4566,15 +4541,14 @@ div.delivery {
 }
 .rb .basket table td h5 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #797598;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .rb .basket table td h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb .basket table td h6 {
 	color:#333333;
@@ -4617,15 +4591,14 @@ div.delivery {
 }
 .rb .basket > div h6 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #14005d;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .rb .basket > div h6 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb .basket > div h4 {
 	float:left;
@@ -4639,15 +4612,14 @@ div.delivery {
 }
 .rb .basket > div h4 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #14005d;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .rb .basket > div h4 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .rb .basket > div button {
 	width:180px;
@@ -4990,15 +4962,14 @@ div.delivery {
 }
 .introduction > div h5 a {
 	color:#666666;
-	text-decoration:none;
-	border-bottom:1px solid #666666;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .introduction > div h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .introduction > ul {
 	display:inline-block;
@@ -5047,15 +5018,14 @@ div.delivery {
 }
 .introduction > ul li h5 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #14005d;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .introduction > ul li h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .introduction > ul li.col1 {
 	width:140px;
@@ -5105,7 +5075,7 @@ div.delivery {
 }
 .introduction > ul li.col3 h5 a {
 	color:#ad0a00;
-	border-bottom:1px solid #ad0a00;
+	text-decoration:underline;
 }
 .shopintro {
 	position:relative;
@@ -5207,15 +5177,14 @@ div.delivery {
 }
 .index > h5 a {
 	color:#14005d;
-	text-decoration:none;
-	border-bottom:1px solid #14005d;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .index > h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .benefits {
 	position:relative;
@@ -5540,14 +5509,14 @@ div.delivery {
 	vertical-align:top;
 	cursor:pointer;
 	margin:-1px 0 -4px;
-	border-bottom:1px solid #a4a4a4;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .modal h4 em:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .modal h4 input {
 	display:none;
@@ -5643,14 +5612,14 @@ div.delivery {
 	color:#14005d;
 	text-decoration:none;
 	cursor:pointer;
-	border-bottom:1px solid #635f88;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .alert ul li a:hover, .alert ul li span:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 
 /* New pages */
@@ -5784,15 +5753,14 @@ div.delivery {
 	font-size:18px;
 	line-height:22px;
 	font-weight:500;
-	text-decoration:none;
-	border-bottom:1px solid #575281;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .rb .services li a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .career {
 	padding:19px 30px 18px;
@@ -6167,14 +6135,14 @@ div.delivery {
 	vertical-align:top;
 	cursor:pointer;
 	margin:-1px 0 -4px;
-	border-bottom:1px solid #a4a4a4;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .career .send h4 em:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .career .send h4 input {
 	display:none;
@@ -6682,14 +6650,14 @@ div.history > div > div.bot p {
 	vertical-align:top;
 	cursor:pointer;
 	margin:-1px 0 -4px;
-	border-bottom:1px solid #a4a4a4;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .cooperation .form h4 em:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .cooperation .form h4 input {
 	display:none;
@@ -6824,15 +6792,14 @@ div.store ul li h5:before {
 }
 div.store ul li h5 a {
 	color:#ffffff;
-	text-decoration:none;
-	border-bottom:1px solid #ffffff;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 div.store ul li h5 a:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 div.store ul li p {
 	color:#c5c5c5;
@@ -7122,14 +7089,14 @@ div.store ul li p {
 	vertical-align:top;
 	cursor:pointer;
 	margin:-1px 0 -4px;
-	border-bottom:1px solid #a4a4a4;
+	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
 .customers .form h4 em:hover {
-	border-bottom:1px solid transparent;
+	text-decoration:none;
 }
 .customers .form h4 input {
 	display:none;
