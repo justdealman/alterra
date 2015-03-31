@@ -742,6 +742,7 @@ ul.photos li img {
 	top:0;
 	width:709px;
 	z-index:200;
+	padding:0 0 16px;
 	background:rgb(255,255,255);
 	background:-moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(233,233,233,1) 100%);
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(233,233,233,1)));
@@ -761,11 +762,12 @@ ul.photos li img {
 	margin:0 0 -10px;
 }
 .lb .nav > ul > li > div > ul > li {
-	float:left;
+	display:inline-block;
 	width:213px;
-	margin:0 0 0 20px;
+	vertical-align:top;
+	margin:0 -3px 0 20px;
 }
-.lb .nav > ul > li > div > ul > li:first-child {
+.lb .nav > ul > li > div > ul > li:nth-child(3n+1) {
 	margin-left:0;
 }
 .lb .nav > ul > li > div > ul > li h5 {
@@ -774,7 +776,7 @@ ul.photos li img {
 	line-height:16px;
 	font-weight:normal;
 	padding:0;
-	margin:0 0 20px;
+	margin:0 10px 20px 0;
 }
 .lb .nav > ul > li > div > ul > li h5 a {
 	color:#333333;
