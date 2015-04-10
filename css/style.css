@@ -1186,7 +1186,7 @@ ul.photos li img {
 	left:44px;
 	top:15px;
 	width:133px;
-	min-height:245px;
+	min-height:255px;
 	padding:11px 15px 16px 14px;
 	background:#ffffff;
 	-webkit-box-shadow:0 0 15px rgba(0,0,0,0.15);
@@ -1510,7 +1510,7 @@ ul.photos li img {
 .categories .jcarousel {
 	position:relative;
 	width:606px;
-	height:366px;
+	height:376px;
 	margin:-22px auto -83px;
 }
 .categories .jcarousel .jcarousel-container {
@@ -1525,24 +1525,24 @@ ul.photos li img {
 }
 .categories .jcarousel .jcarousel-clip-horizontal {
 	width:606px;
-	height:366px;
+	height:376px;
 }
 .categories .jcarousel .jcarousel-list-horizontal {
 	width:606px;
-	height:366px;
+	height:376px;
 }
 .categories .jcarousel .jcarousel-item {
 	position:relative;
 	float:left;
 	width:202px;
-	height:366px;
+	height:376px;
 }
 .categories .jcarousel .jcarousel-item > div {
 	position:absolute;
 	left:20px;
 	top:15px;
 	width:133px;
-	min-height:245px;
+	min-height:255px;
 	padding:11px 15px 16px 14px;
 	background:#ffffff;
 	-webkit-box-shadow:0 0 15px rgba(0,0,0,0.15);
@@ -1575,7 +1575,7 @@ ul.list li {
 	position:relative;
 	display:inline-block;
 	width:162px;
-	height:272px;
+	height:282px;
 	vertical-align:top;
 	margin:0 7px 10px 0;
 }
@@ -1584,7 +1584,7 @@ ul.list li > div {
 	left:0;
 	top:0;
 	width:133px;
-	min-height:245px;
+	min-height:255px;
 	padding:11px 15px 16px 14px;
 	background:#ffffff;
 	-webkit-box-shadow:0 0 15px rgba(0,0,0,0.15);
@@ -1625,6 +1625,7 @@ ul.list li h3 a:hover, .compare table thead td > div h3 a:hover, .jcarousel .jca
 ul.list li > div > div, .compare table thead td > div > div, .jcarousel .jcarousel-item > div > div {
 	position:relative;
 	height:113px;
+	margin:0 0 10px;
 }
 ul.list li > div > div img, .compare table thead td > div > div img, .jcarousel .jcarousel-item > div > div img {
 	position:absolute;
@@ -2777,7 +2778,7 @@ ul.gallery li h5 a:hover {
 	top:0;
 	z-index:10;
 	width:216px;
-	height:280px;
+	height:290px;
 	color:#14005d;
 	font-size:16px;
 	line-height:20px;
@@ -2798,7 +2799,7 @@ ul.gallery li h5 a:hover {
 .compare table thead td {
 	position:relative;
 	width:181px;
-	height:312px;
+	height:322px;
 	border-top:1px solid #877dac;
 	border-bottom:1px solid #877dac;
 }
