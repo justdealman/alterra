@@ -268,4 +268,22 @@ $(document).ready(function() {
 			});
 		});
 	}
+	$('.lb .nav > ul > li').each(function() {
+		var t = $(this).children('div').children('ul');
+		if ( t.children('li').length > 1 ) {
+			t.children('li:nth-child(1)').append('<span class="vertical"></span>');
+		}
+		if ( t.children('li').length > 2 ) {
+			t.children('li:nth-child(2)').append('<span class="vertical"></span>');
+		}
+		var lines = Math.ceil(t.children('li').size()/3);
+		for ( var i = 1; i < lines; i++ ) {
+			t.children('li:nth-child('+eval(i*3+1)+')').append('<span class="horizontal"></span>');
+		}
+		$(this).hover(function() {
+			t.find('.vertical').css({
+				'height': t.outerHeight()-96+'px'
+			});
+		});
+	});
 });
