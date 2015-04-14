@@ -1786,22 +1786,24 @@ ul.list li h4:after, .compare table thead td > div h4:after, .jcarousel .jcarous
 }
 .rb > .description h6 {
 	color:#333333;
-	font-size:12px;
-	line-height:16px;
+	font-size:13px;
+	line-height:17px;
 	font-weight:500;
 	padding:0;
-	margin:0 0 12px;
+	margin:0 0 13px;
 }
 .rb > .description p {
 	color:#333333;
-	font-size:12px;
-	line-height:16px;
-	margin:0 0 12px;
+	font-size:13px;
+	line-height:17px;
+	margin:0 0 13px;
 }
 .rb > .description ul {
-	margin:0 0 12px;
+	margin:0 0 13px;
 }
 .rb > .description ul li {
+	font-size:13px;
+	line-height:17px;
 	position:relative;
 	text-indent:22px;
 }
@@ -2167,9 +2169,9 @@ ul.list li h4:after, .compare table thead td > div h4:after, .jcarousel .jcarous
 }
 .prodline li p {
 	color:#333333;
-	font-size:12px;
-	line-height:16px;
-	margin:0 0 16px;
+	font-size:13px;
+	line-height:17px;
+	margin:0 0 17px;
 }
 .prodline li p strong {
 	font-weight:500;
@@ -2177,8 +2179,8 @@ ul.list li h4:after, .compare table thead td > div h4:after, .jcarousel .jcarous
 .prodline li h6 {
 	position:relative;
 	color:#999999;
-	font-size:12px;
-	line-height:16px;
+	font-size:13px;
+	line-height:17px;
 	font-weight:normal;
 	font-family:'Myriad Pro', sans-serif;
 	padding:0 0 0 27px;
@@ -2609,9 +2611,9 @@ ul.gallery li div img {
 }
 ul.gallery li h5 {
 	overflow:hidden;
-	height:48px;
-	font-size:12px;
-	line-height:16px;
+	height:51px;
+	font-size:13px;
+	line-height:17px;
 	font-weight:normal;
 	padding:0 0 1px;
 	margin:0 0 12px;
@@ -2721,9 +2723,9 @@ ul.gallery li h5 a:hover {
 }
 .rb .result p {
 	color:#333333;
-	font-size:12px;
-	line-height:16px;
-	margin:0 0 16px;
+	font-size:13px;
+	line-height:17px;
+	margin:0 0 17px;
 }
 .rb .result p a {
 	color:#333333;
@@ -3690,17 +3692,17 @@ div.delivery {
 }
 .product .description > div p {
 	color:#333333;
-	font-size:12px;
-	line-height:14px;
-	margin:0 0 14px;
+	font-size:13px;
+	line-height:16px;
+	margin:0 0 16px;
 }
 .product .description > div h6 {
 	color:#333333;
-	font-size:12px;
+	font-size:13px;
 	line-height:16px;
 	font-weight:500;
 	padding:0;
-	margin:0 0 13px;
+	margin:0 0 16px;
 }
 .product .description > div ul {
 	margin:0 0 14px;
@@ -3708,10 +3710,10 @@ div.delivery {
 .product .description > div ul li {
 	position:relative;
 	color:#333333;
-	font-size:12px;
-	line-height:14px;
+	font-size:13px;
+	line-height:16px;
 	padding:0 0 0 21px;
-	margin:0 0 6px;
+	margin:0 0 8px;
 }
 .product .description > div ul li:before {
 	content:'';
@@ -3801,17 +3803,17 @@ div.delivery {
 }
 .private h6 {
 	color:#333333;
-	font-size:12px;
-	line-height:16px;
+	font-size:13px;
+	line-height:17px;
 	font-weight:500;
 	padding:0;
 	margin:0;
 }
 .private p {
 	color:#333333;
-	font-size:12px;
-	line-height:16px;
-	margin:0 0 16px;
+	font-size:13px;
+	line-height:17px;
+	margin:0 0 17px;
 }
 .private .links {
 	padding:25px 0 0;
@@ -3836,8 +3838,8 @@ div.delivery {
 	margin:0;
 }
 .private .links > div ul li {
-	font-size:12px;
-	line-height:16px;
+	font-size:13px;
+	line-height:17px;
 	font-weight:500;
 	padding:0 0 2px 35px;
 	margin:0 0 8px;
@@ -4382,9 +4384,9 @@ div.delivery {
 }
 .stat > ul li > div p {
 	color:#333333;
-	font-size:12px;
-	line-height:16px;
-	margin:0 0 11px;
+	font-size:13px;
+	line-height:17px;
+	margin:0 0 12px;
 }
 .stat > ul li > div p a {
 	color:#333333;
@@ -6063,11 +6065,11 @@ div.delivery {
 .career .vacancy > ul > li > ul li h5 {
 	position:relative;
 	color:#333333;
-	font-size:12px;
-	line-height:14px;
+	font-size:13px;
+	line-height:16px;
 	font-weight:500;
 	padding:0;
-	margin:0 0 4px;
+	margin:0 0 5px;
 }
 .career .vacancy > ul > li > ul li h5:before {
 	content:'';
@@ -6080,17 +6082,17 @@ div.delivery {
 }
 .career .vacancy > ul > li > ul li p {
 	color:#333333;
-	font-size:12px;
-	line-height:14px;
-	margin:0 0 4px;
+	font-size:13px;
+	line-height:16px;
+	margin:0 0 5px;
 }
 .career .vacancy > ul > li > ul li ol {
 	margin:0 0 4px 16px;
 }
 .career .vacancy > ul > li > ul li ol li {
 	color:#333333;
-	font-size:12px;
-	line-height:14px;
+	font-size:13px;
+	line-height:16px;
 	list-style-type:decimal;
 	padding:0;
 	margin:0;
@@ -6098,13 +6100,13 @@ div.delivery {
 .career .vacancy > ul > li h6 {
 	display:inline-block;
 	color:#14005d;
-	font-size:12px;
-	line-height:14px;
+	font-size:13px;
+	line-height:16px;
 	font-weight:normal;
 	vertical-align:top;
 	cursor:pointer;
 	padding:0;
-	margin:7px 0 14px;
+	margin:7px 0 15px;
 }
 .career .vacancy > ul > li h6 img {
 	float:left;
@@ -6227,9 +6229,9 @@ div.delivery {
 }
 .about p {
 	color:#414141;
-	font-size:12px;
-	line-height:16px;
-	margin:0 0 16px;
+	font-size:13px;
+	line-height:17px;
+	margin:0 0 17px;
 }
 .about ul {
 	text-align:center;
