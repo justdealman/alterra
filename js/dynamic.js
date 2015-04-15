@@ -286,4 +286,7 @@ $(document).ready(function() {
 			});
 		});
 	});
+	if ( $('.introduction').length > 0 ) {
+		$('.menu').addClass('mainpage');
+	}
 });

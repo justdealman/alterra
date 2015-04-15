@@ -583,7 +583,7 @@ button::-moz-focus-inner {
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
-.menu > ul > li:hover > a > span, .menu > ul > li.active > span {
+.menu > ul > li:hover > a > span, .menu > ul > li.active > a > span {
 	text-decoration:underline;
 }
 /*.menu ul li.active a {
@@ -601,7 +601,6 @@ button::-moz-focus-inner {
 	z-index:110;
 	width:262px;
 	padding:11px 0 0;
-	background:#ffffff;
 }
 .menu > ul > li:hover > div {
 	display:block;
@@ -615,13 +614,9 @@ button::-moz-focus-inner {
 	height:5px;
 	background:#d1d1d1;
 }
-.menu.general > ul > li > div:before {
-	background:rgba(0,0,0,0.25);
-}
 .menu > ul > li > div ul {
 	width:262px;
-	height:100px;
-	padding:22px 0 12px;
+	padding:22px 0 8px;
 	margin:0;
 	background:url('../img/menu_bg.png') repeat;
 	-webkit-box-shadow:5px 5px 0 rgba(0,0,0,0.25);
@@ -642,9 +637,6 @@ button::-moz-focus-inner {
 .menu > ul > li > div ul  li a:hover {
 	text-decoration:underline;
 }
-/*aaa*/
-
-
 .menu ul li.shop {
 	position:absolute;
 	right:20px;
