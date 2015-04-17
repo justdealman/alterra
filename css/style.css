@@ -4152,7 +4152,7 @@ div.delivery {
 .order .form > div > div > div h4.complete {
 	color:#ad0a00;
 }
-.order .form button {
+.order .form button, .order .form a.submit {
 	width:195px;
 	color:#ffffff;
 	font-size:14px;
@@ -4167,8 +4167,14 @@ div.delivery {
 	-moz-transition:all 0.2s ease-in-out;
 	-o-transition:all 0.2s ease-in-out;
 }
-.order .form button:hover {
+.order .form button:hover, .order .form a.submit:hover {
 	background-color:#930800;
+}
+.order .form a.submit {
+	display:inline-block;
+	-moz-box-shadow:border-box;
+	-webkit-box-shadow:border-box;
+	box-sizing:border-box;
 }
 .order .information {
 	margin:0 0 29px;
