@@ -12,7 +12,7 @@
 	$('.slider .container').empty();
 	$('.slider .prev, .slider .next, .slider .pagination').remove();
 	$('.slider .container').html($('.slider .temp').html());
-	$('.slider, .slider .container, .slider .container > div').width($(window).width());
+	$('.slider, .slider .container, .slider .container > div').width($('.wrapper').width());
 	$('.slider').slides({
 		generatePagination: true,
 		generateNextPrev: false,

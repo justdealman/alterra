@@ -131,7 +131,7 @@ $(document).ready(function() {
 		'background': '#e9dfec'
 	});
 	if ( $('.rb .main .special').length > 0 ) {
-		$('body').append('<div class="cover"></div>');
+		$('.wrapper').append('<div class="cover"></div>');
 		$('.cover').css({
 			'top': $('.rb .main .special').offset().top-22+'px',
 			'height': $('.rb .main .special').height()+45+'px'
