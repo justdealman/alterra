@@ -920,7 +920,7 @@ ul.photos li img {
 }
 .lb .nav > ul > li > div > ul > li h5 {
 	color:#ad0a00;
-	font-size:12px;
+	font-size:13px;
 	line-height:16px;
 	font-weight:normal;
 	padding:0;
@@ -941,8 +941,8 @@ ul.photos li img {
 	margin:-8px 0 16px 11px;
 }
 .lb .nav > ul > li > div > ul > li > ul > li {
-	font-size:11px;
-	line-height:14px;
+	font-size:13px;
+	line-height:16px;
 	margin:0 0 8px;
 }
 .lb .nav > ul > li > div > ul > li > ul > li a {
