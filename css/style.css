@@ -946,7 +946,7 @@ ul.photos li img {
 	margin:0 0 8px;
 }
 .lb .nav > ul > li > div > ul > li > ul > li a {
-	color:#9c9b9b;
+	color:#666666;
 	text-decoration:underline;
 	transition:all 0.2s ease-in-out;
 	-webkit-transition:all 0.2s ease-in-out;
@@ -7623,4 +7623,11 @@ div.store ul li p {
 	.slider .pagination {
 		margin:0 -540px 0 0;
 	}
+}
+
+p.base {
+	color:#333333;
+	font-size:14px;
+	line-height:20px;
+	margin:0 0 20px;
 }
