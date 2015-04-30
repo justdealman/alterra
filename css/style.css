@@ -7631,3 +7631,44 @@ p.base {
 	line-height:20px;
 	margin:0 0 20px;
 }
+.rb .special {
+	position:relative;
+	width:679px;
+	height:327px;
+	margin:0 0 29px;
+	-webkit-box-shadow:0 5px 15px rgba(0,0,0,0.25);
+	-moz-box-shadow:0 5px 15px rgba(0,0,0,0.25);
+	box-shadow:0 5px 15px rgba(0,0,0,0.25);
+}
+.rb .special:after {
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:-28px;
+	width:679px;
+	height:28px;
+	background:url('../img/offer_shadow.png') no-repeat center top;
+}
+.rb .special .prev, .rb .special .next {
+	position:absolute;
+	top:50%;
+	z-index:50;
+	display:block !important;
+	width:22px;
+	height:35px;
+	margin-top:-17px;
+}
+.rb .special .prev {
+	left:-22px;
+	background:url('../img/carousel_prev.png') no-repeat left top;
+}
+.rb .special .next {
+	right:-22px;
+	background:url('../img/carousel_next.png') no-repeat left top;
+}
+.rb .special .container, .rb .special .container > div > div {
+	clear:both;
+	overflow:hidden;
+	width:679px;
+	height:327px;
+}

@@ -271,4 +271,16 @@ $(document).ready(function() {
 	if ( $('.introduction').length > 0 ) {
 		$('.menu').addClass('mainpage');
 	}
+	if ( $('.rb .special').length > 0 ) {
+		$('.rb .special').slides({
+			generatePagination: false,
+			generateNextPrev: true,
+			container: 'container',
+			effect: 'slide',
+			slideSpeed: 500,
+			slideEasing: 'easeInOutQuad',
+			play: 10000,
+			pause: 2500
+		});
+	}
 });
