@@ -143,31 +143,13 @@ $(document).ready(function() {
 		});
 	}
 	$('.modal').append('<span class="close"></span>');
-	var bh = 0;
 	$('[data-call]').bind('click', function() {
 		callModal($(this));
 		$('.fade').stop(true,true).fadeIn(500);
-		bh = $(document).scrollTop();
-		$('body').css({'overflow-y': 'scroll'});
-		$('.wrapper').css({'position': 'fixed', 'top': -bh+'px'});
-		$('.footer').css({'position': 'fixed', 'top': -bh+$('.wrapper').height()+'px'});
-		$('.cover').css({
-			'position': 'fixed',
-			'top': -bh+$('.rb .main .special').offset().top-22+'px'
-		});
 		return false;
 	});
 	$('.modal .close, .fade').bind('click', function() {
 		$('.fade, .modal, .alert').stop(true,true).fadeOut(500);
-		if ( $('.modal').is(':visible') ) {
-			$('body').css({'overflow-y': 'auto'});
-			$('.wrapper, .footer').css({'position': 'relative', 'top': '0'});
-			$('.cover').css({
-				'position': 'absolute',
-				'top': $('.rb .main .special').offset().top-22+'px'
-			});
-			$(document).scrollTop(bh);
-		}
 		return false;
 	});
 	$('.rb .sort .method ul li a').bind('click', function() {
