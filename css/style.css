@@ -1744,6 +1744,7 @@ ul.list li h5, .compare table thead td > div h5, .jcarousel .jcarousel-item > di
 	font-size:18px;
 	line-height:22px;
 	text-align:right;
+	white-space:nowrap;
 	padding:0;
 	margin:-3px 0 9px;
 }
@@ -7631,7 +7632,7 @@ p.base {
 	line-height:20px;
 	margin:0 0 20px;
 }
-.rb .special {
+.rb .specialslider {
 	position:relative;
 	width:679px;
 	height:327px;
@@ -7640,7 +7641,7 @@ p.base {
 	-moz-box-shadow:0 5px 15px rgba(0,0,0,0.25);
 	box-shadow:0 5px 15px rgba(0,0,0,0.25);
 }
-.rb .special:after {
+.rb .specialslider:after {
 	content:'';
 	position:absolute;
 	left:0;
@@ -7649,7 +7650,7 @@ p.base {
 	height:28px;
 	background:url('../img/offer_shadow.png') no-repeat center top;
 }
-.rb .special .prev, .rb .special .next {
+.rb .specialslider .prev, .rb .specialslider .next {
 	position:absolute;
 	top:50%;
 	z-index:50;
@@ -7658,15 +7659,15 @@ p.base {
 	height:35px;
 	margin-top:-17px;
 }
-.rb .special .prev {
+.rb .specialslider .prev {
 	left:-22px;
 	background:url('../img/carousel_prev.png') no-repeat left top;
 }
-.rb .special .next {
+.rb .specialslider .next {
 	right:-22px;
 	background:url('../img/carousel_next.png') no-repeat left top;
 }
-.rb .special .container, .rb .special .container > div > div {
+.rb .specialslider .container, .rb .specialslider .container > div > div {
 	clear:both;
 	overflow:hidden;
 	width:679px;

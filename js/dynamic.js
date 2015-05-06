@@ -271,8 +271,8 @@ $(document).ready(function() {
 	if ( $('.introduction').length > 0 ) {
 		$('.menu').addClass('mainpage');
 	}
-	if ( $('.rb .special').length > 0 ) {
-		$('.rb .special').slides({
+	if ( $('.rb .specialslider').length > 0 ) {
+		$('.rb .specialslider').slides({
 			generatePagination: false,
 			generateNextPrev: true,
 			container: 'container',
