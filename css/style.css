@@ -7673,3 +7673,72 @@ p.base {
 	width:679px;
 	height:327px;
 }
+
+.advantages {
+	position:relative;
+	z-index:20;
+	text-align:center;
+	padding:43px 0 117px;
+	margin:0 0 -18px;
+	background:#ffffff;
+}
+.advantages:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:-20px;
+	width:100%;
+	height:20px;
+	background:url('../img/benefits_shadow.png') repeat-x top;
+	opacity:0.5;
+}
+.advantages h3 {
+	color:#14005d;
+	font-size:30px;
+	line-height:40px;
+	font-weight:600;
+	padding:0;
+	margin:0 0 52px;
+}
+.advantages ul {
+	clear:both;
+	overflow:hidden;
+	width:997px;
+	padding:0 0 0 3px;
+	margin:0 auto;
+}
+.advantages ul li {
+	float:left;
+	width:156px;
+	margin:0 0 0 12px;
+}
+.advantages ul li:first-child {
+	margin-left:-1px;
+}
+.advantages ul li div {
+	overflow:hidden;
+	position:relative;
+	width:122px;
+	height:122px;
+	margin:0 auto 35px;
+	background:#a10000;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+}
+.advantages ul li div img {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	max-width:122px;
+	max-height:122px;
+	margin:auto;
+}
+.advantages ul li p {
+	color:#14005d;
+	font-size:16px;
+	line-height:20px;
+	margin:0 0 20px;
+}
