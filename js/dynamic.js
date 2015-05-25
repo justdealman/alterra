@@ -187,6 +187,13 @@ $(document).ready(function() {
 	$('.modal h4 em, .career .send h4 em, .cooperation .form h4 em, .customers .form h4 em, .providers .form h4 span').bind('click', function() {
 		$(this).parent().find('input[type="file"]').trigger('click');
 	});
+	$('input[type="file"]').change(function() {
+		var path = $(this).val().split(/(\\|\/)/g).pop();
+		$(this).parent().prepend('<p style="margin:-4px 0 8px">'+path+' <i class="remove-file" style="font-style:normal; color:#14005d; cursor:pointer">(удалить)</i></p>');
+		$('.remove-file').bind('click', function() {
+			$(this).parent().remove();
+		});
+	});
 	if ( $('.about').length > 0 && $('.benefits').length > 0 ) {
 		$('.benefits').css({
 			'background': '#f9f9f9'
