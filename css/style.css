@@ -4872,17 +4872,44 @@ div.delivery {
 	border-right:9px solid transparent;
 	border-bottom:11px solid #a5a5a5;
 }
-.footer > div > div {
+.footer > div > div.copy {
 	position:absolute;
 	left:30px;
 	top:24px;
-	max-width:50%;
+	max-width:280px;
 }
-.footer > div > div p {
+.footer > div > div.copy p {
 	font-size:14px;
 	line-height:16px;
 	margin:0;
 }
+.footer > div > div.payment {
+	position:absolute;
+	left:50%;
+	top:10px;
+	margin-left:-144px;
+}
+.footer > div > div.payment p {
+	font-size:14px;
+	line-height:20px;
+	margin:0 0 4px;
+}
+.footer > div > div.payment > div {
+	display:table;
+}
+.footer > div > div.payment > div ul {
+	display:table-row;
+	margin:0;
+}
+.footer > div > div.payment > div ul li {
+	display:table-cell;
+	vertical-align:middle;
+	padding:0 0 0 18px;
+}
+.footer > div > div.payment > div ul li:first-child {
+	padding-left:0;
+}
+
 .footer h5 {
 	position:absolute;
 	right:40px;
