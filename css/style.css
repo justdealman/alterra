@@ -508,6 +508,10 @@ button::-moz-focus-inner {
 	left:22px;
 	top:0;
 }
+.miniheader img.logo {
+	width:231px;
+	height:57px;
+}
 .miniheader h3 {
 	position:absolute;
 	left:381px;
@@ -549,24 +553,24 @@ button::-moz-focus-inner {
 }
 .miniheader .menu {
 	position:absolute;
-	left:281px;
-	top:15px;
+	left:261px;
+	top:11px;
 	background:none;
 	border-bottom-width:0;
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
 	box-shadow:none;
 }
-.miniheader .menu > ul {
-	width:706px;
+.miniheader .menu.general > ul {
+	width:730px;
 }
 .miniheader .menu.general > ul > li > a {
 	color:#ffffff;
 	font-weight:500;
-	padding:3px 12px 3px;
+	padding:3px 7px 3px 6px;
 }
 .miniheader .menu > ul > li > div {
-	padding:19px 0 0;
+	padding:23px 0 0;
 }
 .miniheader .menu > ul > li > div:before {
 	display:none;
@@ -577,11 +581,18 @@ button::-moz-focus-inner {
 .miniheader .menu ul li.shop a {
 	padding:15px 16px 14px 40px;
 }
-.miniheader .menu ul li.temp {
-	display:none;
-}
-.miniheader .menu > ul > li > div ul  li {
+.miniheader .menu > ul > li > div ul li {
 	margin:0 13px 9px 21px;
+}
+.miniheader .menu.general ul li.shop a {
+	font-size:12px !important;
+	line-height:16px !important;
+	font-weight:600;
+	padding:13px 13px 10px !important;
+	margin:7px 0 0;
+}
+.miniheader .menu.general ul li.shop a em:before {
+	display:none;
 }
 .menu {
 	position:relative;
@@ -699,10 +710,11 @@ button::-moz-focus-inner {
 	vertical-align:top;
 	padding:15px 16px 14px 40px;
 	background:#ad0a00 !important;
-	transition:all 0.2s ease-in-out;
-	-webkit-transition:all 0.2s ease-in-out;
-	-moz-transition:all 0.2s ease-in-out;
-	-o-transition:all 0.2s ease-in-out;
+	transition:background 0.2s ease-in-out;
+	-webkit-transition:background 0.2s ease-in-out;
+	-moz-transition:background 0.2s ease-in-out;
+	-o-transition:background 0.2s ease-in-out;
+	display:block;
 }
 .menu ul li.shop a:hover {
 	background:#930800 !important;
@@ -7629,14 +7641,33 @@ div.store ul li p {
 	.miniheader img {
 		left:51px;
 	}
+	.miniheader img.logo {
+		width:251px;
+		height:61px;
+	}
 	.miniheader .menu {
 		left:319px;
 	}
 	.miniheader .menu > ul {
 		width:902px;
 	}
-	.miniheader .menu ul li.temp {
-		display:inline-block;
+	.miniheader .menu.general > ul {
+		width:902px;
+	}
+	.miniheader .menu.general > ul > li > a {
+		color:#ffffff;
+		font-weight:500;
+		padding:3px 12px 3px;
+	}
+	.miniheader .menu.general ul li.shop a em:before {
+		display:block;
+	}
+	.miniheader .menu.general ul li.shop a {
+		font-size:16px !important;
+		line-height:20px !important;
+		font-weight:bold;
+		padding:15px 16px 14px 40px !important;
+		margin:2px 0 0;
 	}
 	.slider .container > div > div h5.type1 {
 		margin:0 -540px 0 0;
