@@ -556,5 +556,66 @@
 			<li class="continue"><span>Продолжить покупки</span></li>
 		</ul>
 	</div>
+	<ul class="panel-links">
+		<li class="sale" data-call="sale"></li>
+		<li class="mistake" data-call="mistake"></li>
+	</ul>
+	<div class="modal" data-modal="sale">
+		<h3>Система скидок <span>(розница)</span></h3>
+		<table>
+			<thead>
+				<tr>
+					<th>Объем закупки<br> (накопительный), руб.</th>
+					<th>Размер скидки</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>От 3 000</td>
+					<th>3%</th>
+				</tr>
+				<tr>
+					<td>От 10 000</td>
+					<th>4%</th>
+				</tr>
+				<tr>
+					<td>От 50 000</td>
+					<th>5%</th>
+				</tr>
+				<tr>
+					<td>От 80 000</td>
+					<th>6%</th>
+				</tr>
+				<tr>
+					<td>От 150 000</td>
+					<th>7%</th>
+				</tr>
+				<tr>
+					<td>От 250 000</td>
+					<th>8%</th>
+				</tr>
+				<tr>
+					<td>От 300 000</td>
+					<th>9%</th>
+				</tr>
+			</tbody>
+		</table>
+		<img src="./img/modal_sale_icon.png" width="50" height="39" class="icon" alt="">
+	</div>
+	<div class="modal" data-modal="mistake">
+		<h3>Сообщить об ошибке</h3>
+		<h4 class="tip">Нашли опечатку? Невозможно оставить комментарий? Не работают фильтры при поиске товара? Напишите нам об ошибке на сайте. Мы постараемся решить проблему как можно скорее.</h4>
+		<h5><span>*</span> Опишите ошибку на сайте:</h5>
+		<p><textarea cols="60" rows="3"></textarea></p>
+		<h5>Ссылка на страницу с ошибкой:</h5>
+		<p><input type="text"></p>
+		<h5>E-mail:</h5>
+		<p><input type="text"></p>
+		<h5>Имя:</h5>
+		<p><input type="text"></p>
+		<h4><span>*</span> - поля обязательные к заполнению</h4>
+		<button>Отправить</button>
+		<img src="./img/modal_mistake_icon.png" width="50" height="39" class="icon" alt="">
+	</div>
 </body>
 </html>

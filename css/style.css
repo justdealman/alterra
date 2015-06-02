@@ -5733,6 +5733,11 @@ div.delivery {
 	background:linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(233,233,233,1) 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9',GradientType=0 );
 }
+.modal .icon {
+	position:absolute;
+	left:20px;
+	top:0;
+}
 .modal .close {
 	position:absolute;
 	right:12px;
@@ -5750,6 +5755,9 @@ div.delivery {
 	font-weight:500;
 	padding:0;
 	margin:0 0 32px;
+}
+.modal h3 span {
+	font-size:18px;
 }
 .modal h5 {
 	color:#14005d;
@@ -5803,6 +5811,14 @@ div.delivery {
 	text-align:left;
 	padding:0;
 	margin:-4px 0 16px;
+}
+.modal h4.tip {
+	width:370px;
+	color:#14005d;
+	font-size:14px;
+	line-height:18px;
+    font-family:'Fira Sans', sans-serif;
+	margin:0 0 28px;
 }
 .modal h4 span {
 	color:#ad0a00;
@@ -5858,6 +5874,43 @@ div.delivery {
 	padding:0;
 	margin:0;
 }
+.modal table {
+	width:372px;
+	margin:0 0 2px -20px;
+}
+.modal table thead th {
+	color:#333333;
+	font-size:14px;
+	line-height:16px;
+	font-weight:500;
+	text-align:left;
+	padding:0 14px 13px 20px;
+}
+.modal table thead th:first-child {
+	padding-left:0;
+}
+.modal table tbody td, .modal table tbody th {
+	font-size:14px;
+	line-height:16px;
+	text-align:left;
+	padding:7px 14px 6px 20px;
+	border-top:1px solid #14005d;
+	border-left:1px solid #14005d;
+}
+.modal table tbody tr :first-child {
+	padding-left:16px;
+	border-left-width:0;
+}
+.modal table tbody tr:first-child td, .modal table tbody tr:first-child th {
+	border-top-width:0;
+}
+.modal table tbody td {
+	color:#14005d;
+}
+.modal table tbody th {
+	color:#ad0a00;
+}
+
 .alert {
 	display:none;
 	position:fixed;
@@ -7798,4 +7851,31 @@ p.base {
 	font-size:16px;
 	line-height:20px;
 	margin:0 0 20px;
+}
+
+.panel-links {
+	position:fixed;
+	top:233px;
+	z-index:100;
+	margin:0;
+}
+.panel-links li {
+	position:relative;
+	width:37px;
+	cursor:pointer;
+	margin:-9px 0 0;
+}
+.panel-links li:first-child {
+	margin-top:0;
+}
+.panel-links li:hover {
+	z-index:1;
+}
+.panel-links li.sale {
+	height:240px;
+	background:url('../img/panel_sale_icon.png') no-repeat left top;
+}
+.panel-links li.mistake {
+	height:282px;
+	background:url('../img/panel_mistake_icon.png') no-repeat left top;
 }

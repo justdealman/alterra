@@ -2,6 +2,9 @@
 	if ( $('.slider').length > 0 ) {
 		slider();
 	}
+	if ( $('.panel-links').length > 0 ) {
+		panelLinks();
+	}
 });
 $(document).ready(function() {
 	if ( $('.slider').length > 0 ) {
@@ -289,5 +292,8 @@ $(document).ready(function() {
 			play: 10000,
 			pause: 2500
 		});
+	}
+	if ( $('.panel-links').length > 0 ) {
+		panelLinks();
 	}
 });

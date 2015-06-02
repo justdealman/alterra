@@ -105,3 +105,8 @@ function contactDetails(e) {
 	}).stop(true,true).fadeIn(500);
 	e.addClass('active');
 }
+function panelLinks() {
+	$('.panel-links').css({
+		'left': $('.wrapper').width()+$('.wrapper').offset().left+'px'
+	});
+}
