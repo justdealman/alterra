@@ -100,7 +100,7 @@ $(document).ready(function() {
 		return false;
 	});
 	$('.same .jcarousel, .index .jcarousel, .categories .jcarousel, .partners .jcarousel').jcarousel({
-		scroll: 1,
+		scroll: 5,
 		animation: 500,
 		easing: 'easeInOutQuart',
 		wrap: 'circular'

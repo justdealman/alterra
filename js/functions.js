@@ -106,7 +106,11 @@ function contactDetails(e) {
 	e.addClass('active');
 }
 function panelLinks() {
+	var l = $('.wrapper').width()+$('.wrapper').offset().left;
+	if ( l + $('.panel-links').outerWidth() > $(window).width() ) {
+		l = $(window).width()-$('.panel-links').outerWidth();
+	}
 	$('.panel-links').css({
-		'left': $('.wrapper').width()+$('.wrapper').offset().left+'px'
+		'left': l+'px'
 	});
 }

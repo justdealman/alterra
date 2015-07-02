@@ -5443,6 +5443,27 @@ div.delivery {
 	-moz-box-shadow:0 0 5px rgba(0,0,0,0.15);
 	box-shadow:0 0 5px rgba(0,0,0,0.15);
 }
+.index .jcarousel .jcarousel-item.wide {
+	width:874px;
+}
+.index .jcarousel .jcarousel-item.dummy {
+	width:1px;
+}
+.index .jcarousel .jcarousel-item.wide > div {
+	overflow:hidden;
+	left:5px;
+	top:15px;
+	width:854px;
+	height:283px;
+	padding:0;
+}
+.index .jcarousel .jcarousel-item.wide > div img {
+	position:absolute;
+	left:0;
+	top:0;
+	min-width:854px;
+	min-height:283px;
+}
 .index .jcarousel .jcarousel-prev-horizontal {
     position:absolute;
     top:124px;
