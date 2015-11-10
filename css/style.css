@@ -7900,3 +7900,49 @@ p.base {
 	height:282px;
 	background:url('../img/panel_mistake_icon.png') no-repeat left top;
 }
+
+.delivery-nav {
+	position:relative;
+	text-align:center;
+	padding:0 0 0 36px;
+	margin:-10px 0 30px;
+}
+.delivery-nav:before {
+	content:'';
+	position:absolute;
+	left:0;
+	top:25px;
+	width:100%;
+	border-top:2px dotted #d3d3d3;
+}
+.delivery-nav ul {
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	padding:0 16px;
+	margin:0 auto;
+	background:url('../img/bg.png') repeat;
+}
+.delivery-nav ul li {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 -2px 0 -1px;
+}
+.delivery-nav ul li a {
+	display:block;
+	font-size:16px;
+	line-height:20px;
+	font-weight:500;
+	padding:5px 32px 6px;
+}
+.delivery-nav ul li a span {
+	color:#14005d;
+	border-bottom:1px dashed #14005d;
+}
+.delivery-nav ul li.active a {
+	background:#14005d;
+}
+.delivery-nav ul li.active a span {
+	color:#ffffff;
+	border-bottom-width:0;
+}

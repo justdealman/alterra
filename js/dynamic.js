@@ -296,4 +296,12 @@ $(document).ready(function() {
 	if ( $('.panel-links').length > 0 ) {
 		panelLinks();
 	}
+	if ( $('.delivery-nav').length > 0 ) {
+		$('.delivery-nav ul li a').bind('click', function() {
+			var t = $(this).attr('href');
+			$('.delivery[data-delivery="'+t+'"]').show().siblings('.delivery').hide();
+			$(this).parent().addClass('active').siblings().removeClass('active');
+			return false;
+		}).filter(':first').click();
+	}
 });
