@@ -182,7 +182,7 @@ $(document).ready(function() {
 		return false;
 	});
 	$('html, body').click(function() {
-		$('.header .citysel').slideUp(500);
+		$('.header .citysel').fadeOut(500);
 	});
 	$('.header .address a, .header .citysel').click(function(e) {
 		e.stopPropagation();

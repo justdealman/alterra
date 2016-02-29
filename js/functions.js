@@ -82,16 +82,22 @@ function basketAdd(e) {
 	$('.fade').stop(true,true).fadeIn(500).delay(10000).fadeOut(500);
 }
 function cityDrop(e) {
-	e.parents('.header').stop(true,true).find('.citysel').slideDown(500);
+	var t = e.parents('.header').stop(true,true).find('.citysel');
+	if ( t.is(':hidden') ) {
+		t.fadeIn(500);
+	}
+	else {
+		t.fadeOut(500);
+	}
 }
 function citySel(e) {
 	if ( e.attr('data-pre') ) {
-		e.parents('.header').find('h5.address a span').html(e.attr('data-pre')+': '+e.html());
+		e.parents('.header').find('h5.address a span').html(e.attr('data-pre')+': '+e.find('em').html());
 	}
 	else {
-		e.parents('.header').find('h5.address a span').html(e.html());
+		e.parents('.header').find('h5.address a span').html(e.find('em').html());
 	}
-	e.parents('.citysel').stop(true,true).slideUp(500);
+	e.parents('.citysel').stop(true,true).fadeOut(500);
 }
 function selStore(e) {
 	$('.header .address a span').text(e.attr('data-short'));
